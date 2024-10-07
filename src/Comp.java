@@ -6,7 +6,6 @@ public class Comp extends Player{
     Random random = new Random();
 
     public Card makeMove(Deck deck, String trump){
-        //int index = getRandomIndex(cards.size());
         int index = evaluateCards(deck, trump);
         return removeCard(index);
     }
