@@ -32,7 +32,7 @@ public class Game {
         System.out.println("User first: " + isUserMove);
         System.out.println("\n");
 
-        //gameProcess();
+        gameProcess();
     }
 
     public void gameProcess(){
